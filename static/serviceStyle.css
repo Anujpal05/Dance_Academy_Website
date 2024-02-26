@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: 7FC7D9;
+}
+
+section ul{
+    font-size: 1.4rem;
+    color: rgb(98 41 41);
+    padding-left: 80px;
+}
+
+section p{
+    font-size: 1.4rem;
+    color: rgb(98 41 41);
+    padding: 20px;
+    padding-left: 42px;
+}
+
+section p{
+   font-size: 1.4rem;
+   color: rgb(61, 24, 24);
+}
+
+section h2{
+    background-color:365486;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+
+@media screen and (max-width:450px) {
+    section h2{
+        font-size: 1.5rem;
+        padding:5px;
+    }
+    section p{
+        padding: 15px;
+        padding-left: 10px;
+        font-size:1rem;
+    }
+
+    section ul{
+        font-size: 1rem;
+        padding-left: 30px;
+    }
+}

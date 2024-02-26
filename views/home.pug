@@ -1,0 +1,43 @@
+extends base.pug
+block style
+    style 
+        include ../static/style.css
+block content
+            Section#introSection
+                | Welcome to Fun Dance Academy
+                div#small Eat Sleep Dance Repeat
+            Section#missionSection
+                h1 Our Mission
+                    div.box
+                     div.card
+                         h3 Dance Perfection
+                         div.card-box
+                             div.card-img   
+                                 img(src="/static/img/card1.png")
+                             div.card-content
+                                 p This is the world best dance acedemy.
+                     div.card
+                         h3 Dance the way you like
+                         div.card-box
+                             div.card-img
+                                 img(src="/static/img/card2.png")
+                             div.card-content
+                                 p This is the world best dance acedemy.
+                     div.card
+                         h3 Exepert Teaching
+                         div.card-box
+                             div.card-img   
+                                 img(src="/static/img/card3.png")
+                             div.card-content
+                                 p This is the world best dance acedemy.
+            Section#sponsorSection 
+                h1 Sponsors
+                    div.sponsor
+                        div.sponsorimg#sponsorimg1
+                            img(src="/static/img/sponsor1.png")
+                        div.sponsorimg#sponsorimg2
+                            img(src="/static/img/sponsor2.png")
+                        div.sponsorimg
+                            img(src="/static/img/sponsor3.jpg")
+                        div.sponsorimg
+                            img(src="/static/img/sponsor4.jpg")

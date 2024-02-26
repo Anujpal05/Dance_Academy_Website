@@ -1,0 +1,23 @@
+extends base.pug
+block style
+    style
+        include ../static/style.css
+        include ../static/contactStyle.css
+block content
+    form(action="/submit" method="post" class="form") 
+        div#content
+            h1 Contact Form
+            input(type="text" name="name" Placeholder="Enter Your Name:" class="input")
+            <select Placeholder="Select Gender" name="Sgender" class="input" style = " padding:inherit">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            </select>
+            input(type="age" name="age" placeholder="Enter your age:" class="input")
+            input(type="phone" name="phone" Placeholder="Enter the Phone number:" class="input")
+            input(type="email" name="email" Placeholder="Enter Your Email address" class="input")
+            button#btn #[a(href="/submit") Submit] 
+
+        
+
+
+    
