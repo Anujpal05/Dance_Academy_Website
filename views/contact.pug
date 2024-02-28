@@ -8,16 +8,18 @@ block content
         div#content
             h1 Contact Form
             input(type="text" name="name" Placeholder="Enter Your Name:" class="input")
+            div#empty1.empty Please Enter your name
             <select Placeholder="Select Gender" name="Sgender" class="input" style = " padding:inherit">
             <option value="Male">Male</option>
             <option value="Female">Female</option>
             </select>
+            div#empty2.empty Please Enter your gender
             input(type="age" name="age" placeholder="Enter your age:" class="input")
+            div#empty3.empty Please Enter your age
             input(type="phone" name="phone" Placeholder="Enter the Phone number:" class="input")
+            div#empty4.empty Please Enter your phone Number
             input(type="email" name="email" Placeholder="Enter Your Email address" class="input")
-            button#btn #[a(href="/submit") Submit] 
-
-        
-
-
+            div#empty5.empty Please Enter your Email Address
+            button#btn #[a(href="/submit") Submit]
+            script(src="script.js")
     

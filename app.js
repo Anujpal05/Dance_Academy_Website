@@ -27,6 +27,10 @@ app.get("/contact", (req, res) => {
     res.status(200).render("contact.pug");
 })
 
+app.get("/about",(req,res)=>{
+    res.status(200).render("about.pug");
+})
+
 app.get("/submit",(req,res)=>{
     res.status(200).render("submit.pug");
 });

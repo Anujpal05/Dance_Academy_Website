@@ -1,0 +1,42 @@
+extends base.pug
+
+block style
+    style
+        include ../static/style.css
+        include ../static/aboutStyle.css
+
+block content
+    div#dance-page
+        h1 About Dance
+        .section
+            h2 What is Dance?
+            p
+                | Dance is a form of expression that involves rhythmic movement of the body, usually performed to music. It has been a part of human culture for centuries, serving various purposes such as ritual, entertainment, and storytelling.
+
+        .section
+            h2 History of Dance
+            p
+                | The history of dance dates back to ancient times, with evidence of dance found in prehistoric cave paintings and artifacts. Throughout history, dance has evolved and diversified, influenced by cultural, social, and artistic factors.
+
+        .section
+            h2 Benefits of Dance
+            ul
+                li Improved physical fitness and flexibility
+                li Enhanced coordination and balance
+                li Stress relief and emotional expression
+                li Boosted self-confidence and self-esteem
+                li Social interaction and community building
+
+        .section
+            h2 Famous Dancers
+            .dancer
+                img(src="../static/img/Mikhail.jpg" alt="Mikhail Baryshnikov Image")
+                h3 Mikhail Baryshnikov
+                p
+                    | Mikhail Baryshnikov is a renowned ballet dancer and choreographer. He is considered one of the greatest male ballet dancers of all time, known for his exceptional technique, artistic expression, and versatility.
+
+            .dancer
+                img(src="../static/img/madhuri.jpg" alt="Madhuri Dixit Image")
+                h3 Madhuri Dixit
+                p
+                    | Madhuri Dixit is a popular Indian actress and dancer known for her graceful and expressive Bollywood dance performances. She has received numerous awards for her contributions to Indian cinema and dance.
